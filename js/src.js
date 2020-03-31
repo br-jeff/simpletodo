@@ -2,7 +2,7 @@ var todos = [];
 var id = 1;
 
 var inputAdd = document.querySelector('addText');
-
+var textTd = document.querySelector('.taskName')
 
 function addTodo(id,valAdd ){
 
@@ -18,3 +18,12 @@ function addTodo(id,valAdd ){
 
 }
 addTodo(id, "text");
+renderHtml()
+
+function renderHtml()  {
+textTd.innerHTML ="teste";
+addTodo(id,"oi")
+ }
+//<div id ="bgadd">
+//<p> <input id="addText"type="text"> <button  id="bt"/>+</button> </p>
+//</div>
