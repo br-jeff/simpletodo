@@ -4,7 +4,7 @@ body{
 
 .container {
     margin: auto;
-    width: 70%;
+    width: 60%;
     height: auto;
     box-shadow: 5px 10px ;
     background-color: white;
@@ -24,7 +24,7 @@ body{
 }
 
 #bt{
-    width: 22px;
+    width: 28px;
     height: 22px;
     position: relative;
     font-weight: bold;
@@ -33,7 +33,7 @@ body{
     background-color: darkgray;
     color: black ;
     align-items: center;
-    border-radius: 100%;
+    border-radius: 30px;
 }
 #bt:hover{
     border: 1px solid gray;
@@ -69,7 +69,9 @@ body{
 
 
 .taskName{
-    font-size: 22px;
+    display: relative;
+    top: 9px;
+    font-size: 19px;
 }
 
 
